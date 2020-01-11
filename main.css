@@ -9,7 +9,6 @@ body{
   font-family: 'Cabin', sans-serif;
   font-weight: normal;
   font-style: normal;
-  font-size: 240x;
   font-weight:normal;
   margin-top: 48px;
   margin-bottom: 0px;
@@ -55,13 +54,8 @@ article{
 
 }
 
-#mainLogo{
-  margin-bottom: 14px;
 
 
-
-
-}
 
 
 #title{
@@ -76,17 +70,27 @@ article{
 
 }
 
+#home{
+  margin-top: 8px;
+  margin-bottom: 12px;
+  color: white;
+  font-size: x-large;
+  padding-left: 0px;
+  padding-right: 0px;
+}
 
 
 #leftlogo{
   margin-left: 8px;
-  padding: 8px, 8px, 12px, 8px;
+  margin-top: -26px
+
 }
 
 #rightlogo{
+  margin-top: -100px;
   margin-right: 10px;
-  margin-top: 0px;
-  padding: 0px, 8px, 8px, 8px;
+
+
   
 
 }
@@ -111,6 +115,13 @@ article{
 /* Float the  link section to the right */
 .header-right {
   float: right;
+  margin-top: -18px;
+
+}
+
+.header-right-close {
+  float: right;
+  margin: 6px;
 
 }
 
@@ -173,9 +184,9 @@ p, h3 {
 
 #about img{
   float: right;
-  max-width: 40%;
-  margin-bottom: 24px;
-  margin-top: 24px;
+  max-width: 30%;
+  margin-bottom: auto;
+  margin-top: auto;
   margin-left: 24px;
   border-radius: 100%;
   border: 4px solid white;
@@ -183,6 +194,7 @@ p, h3 {
   display: block;
   transition: .5s ease;
   backface-visibility: hidden;
+
 
 
 }
@@ -272,7 +284,7 @@ p, h3 {
 /* The navigation menu links */
 
 #leftMenuOptions{
-  margin: 48px 0px 0px 0px;
+  margin: 60px 0px 0px 0px;
 
 
   
@@ -283,6 +295,7 @@ p, h3 {
   text-align: left;
   text-decoration: none;
   color:grey;
+  font-size: 3vw;
   transition: 0.1s;
 
 }
@@ -326,6 +339,7 @@ p, h3 {
   width: 100%;
   height: 100%;
   margin-top: 0px;
+  padding-top:13px;
   color: black;
   
 }
@@ -339,25 +353,27 @@ p, h3 {
 
 
 #watch h1{
-  display: block;
+  margin-bottom: 0px;
+  margin-top: 40px;
   text-align: center;
   color: white;
-  padding-top: 48px;
-  padding-bottom: 48px;
+  padding-top: 0px;
+  padding-bottom: 0px;
 }
 
 
 #videos{
+
   display: flex;
-  flex: row;
+  flex: column;
   flex-wrap: wrap;
-  width: 33%;
-  margin-top: 100px;
-  margin-left: 48px;
+  align-items: stretch;
+  width: 20%;
+  margin-top: 40px;
+  margin-left: auto;
+  margin-right: auto;
   margin-bottom: 100px;
   background-color: black;
-
-
 }
 
 #course{
@@ -427,8 +443,8 @@ box-shadow: -5px -7px 64px -19px rgba(0,0,0,0.75);
 .footer{
 background-color: #434343;
 text-align: center;
-height: 12px;
-margin-top: 0px;
+height: 10px;
+margin-bottom: 0px;
 padding-top: 0px;
 text-decoration: none;
 border-radius: 20px;
