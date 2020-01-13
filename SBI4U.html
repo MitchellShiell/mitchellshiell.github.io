@@ -8,51 +8,140 @@
     <meta charset="utf-8">
     <title>ological</title>
     <link rel="stylesheet" type="text/css" href="main.css">
+    
     </head>
 
     <body>
 
+        <div id="title">
+            <p>Grade 12 Biology SBI4U</p>
+        </div>
+
+       
+
+      <div id="module">
 
 
-         <!-- Add all page content inside this div if you want the side nav to push page content to the right (not used if you only want the sidenav to sit on top of the page -->
+          <span onclick="closeAllPanels(); openPanel1();">  
+              <div class="column" style="background-image: url('images/panel1.jpg');">
+                    <h2>Biochemistry</h2>
+                    <p>How atoms combine to form structures and how these structures orchestrate our biology</p>   
+              </div>
+            </span>
+         
+                   
+                   
+              
+               
+              <span onclick="closeAllPanels(); openPanel2();">   
+              <div class="column" style="background-image: url('images/panel2.jpg');">
+                <h2>Metabolic Processes</h2>
+                <p>Catabolism and Anabolism the chemical reactions to sustain life and fuel growth</p>
+              </div>
+            </span>
 
-         <div id="main">
 
-                <div>
-
-                        <p>Course Outline</p>
-
+              <span onclick="closeAllPanels(); openPanel3();"> 
+              <div class="column" style="background-image: url('images/panel3.jpg');"> 
+                <h2>Genetics</h2>
+                <p>The programming language of life and death</p>
+                  <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fuga doloremque labore ipsa est quae aliquid similique maiores, nostrum magni ex facilis provident possimus adipisci quaerat consequuntur consequatur nesciunt vitae repellat?</p>
                 </div>
+              </span>
+
+              <span onclick="closeAllPanels(); openPanel4();">
+              <div class="column" style="background-image: url('images/panel4.jpg');">
+                <h2>Homeostasis</h2>
+                <p>The stuggle of maintianing order</p>
+              </div>
+             </span> 
 
 
+             <span onclick="closeAllPanels(); openPanel5();">  
+              <div class="column" style="background-image: url('images/panel5.jpg');">
+                  <h2>Population Dynamics</h2>
+                  <p>The immorality of Nature</p>
+              </div>
+            </span> 
+            
+            </body>
 
+            
+          </div>
 
+        </div>
 
-            <div id="documentContainer">
+         
+      </div>
+      
 
-              <iframe src="//www.slideshare.net/slideshow/embed_code/key/5xCLrbRUe8KINi" width="100%" height="100%" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/secret/5xCLrbRUe8KINi" title="Test" target="_blank">Test</a> </strong> from <strong><a href="https://www.slideshare.net/MitchellShiell" target="_blank">Mr. Shiell</a></strong> </div>
+          <div id="Panel1" class="Panel">
+              <a href="javascript:void(0)" class="closeBtn" onclick="closePanel1()">&times;</a>
+            
+              <!--Chapter Navigation dropdown with smooth scroll-->
+            
+              <select>
+                  <option value="#chapter1">Chapter 1</option>
+                  <option value="#chapter2">Chapter 2</option>
+                  <option value="#chapter3">Chapter 3</option>
+                  <option value="#chapter4">Chapter 4</option>
+              </select>
+              <div class=anchors>
+                  <div> <a id="chapter1">Chapter 1</a>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa et impedit rem quae? Labore quidem tempora quisquam, fuga nihil dicta porro, architecto saepe illum repellat, deleniti odio numquam ad molestiae.</p>
+                  
+                  </div>
 
+                  <div><a id="chapter2">Chapter 2</a>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa et impedit rem quae? Labore quidem tempora quisquam, fuga nihil dicta porro, architecto saepe illum repellat, deleniti odio numquam ad molestiae.</p>
+                  </div> 
+      
+                  <div> <a id="chapter3">Chapter 3</a>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa et impedit rem quae? Labore quidem tempora quisquam, fuga nihil dicta porro, architecto saepe illum repellat, deleniti odio numquam ad molestiae.</p>
+                  </div>
 
+                  <div> <a id="chapter4">Chapter 4</a>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa et impedit rem quae? Labore quidem tempora quisquam, fuga nihil dicta porro, architecto saepe illum repellat, deleniti odio numquam ad molestiae.</p>
+                  </div>
+
+              </div>
             </div>
 
 
-          <div class="footer">
-            <a href="https://www.linkedin.com/in/mitchell-shiell-53b0a1194/?originalSubdomain=ca">
-              <p>Created by Mr. Shiell</p></a>
-          </div>
-          </div>
+         
+            <div id="Panel2" class="Panel">
+                <a href="javascript:void(0)" class="closeBtn" onclick="closePanel2()">&times;</a>
+                <!--Chapter Navigation dropdown with smooth scroll-->
+                <p>METABOLISM</p>
+            </div>   
 
+            <div id="Panel3" class="Panel">
+                <a href="javascript:void(0)" class="closeBtn" onclick="closePanel3()">&times;</a>
+                <!--Chapter Navigation dropdown with smooth scroll-->
+                <p>Genetics</p>
+            </div>   
 
+            <div id="Panel4" class="Panel">
+                <a href="javascript:void(0)" class="closeBtn" onclick="closePanel4()">&times;</a>
+                <!--Chapter Navigation dropdown with smooth scroll-->
+                <p>Homeostasis</p>
+            </div>   
 
+            <div id="Panel5" class="Panel">
+                <a href="javascript:void(0)" class="closeBtn" onclick="closePanel5()">&times;</a>
+                <!--Chapter Navigation dropdown with smooth scroll-->
+                <p>Population Dynamics</p>
+            </div>   
+
+  
 
         <!-- Add navigation script -->
 
+        <div w3-include-html="Navigation.html"></div>
 
-          <div w3-include-html="NavigationSBI4U.html"></div>
-
-          <script>
-          includeHTML();
-          </script>
+        <script>
+            includeHTML();
+            </script>
 
 
     </body>

@@ -1,0 +1,100 @@
+#noscroll{
+    overflow: hidden;
+}
+
+#module{
+    position: fixed;
+    transition: margin-left .5s;
+}
+
+#title{
+    height: 5vh;
+    z-index: 1;
+    background-color: white;
+  }
+  
+  #title p{
+    padding: 8px;
+    font-size: 3vh;
+    
+  }
+
+/* Create four equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 20%;
+    height: 90vh;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+    background-repeat: no-repeat;
+  }
+  
+  .column h2{
+    font-size: 100%;
+    text-align: center;
+    background-color: hsl(240, 2%, 12%);;
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+    padding: 8px;
+    border-bottom-left-radius: 24px;
+    border-bottom-right-radius: 24px;
+    color: white;
+  
+  
+  }
+  
+  .column:hover {
+    filter: grayscale(0%);
+    transition: .5s;
+  }
+
+  .column:hover h2{
+      width: 100%;
+      border-bottom-left-radius: 0px;
+      border-bottom-right-radius: 0px;
+      transition: .5s;
+  }
+  
+  .column p{
+    text-align: center;
+    font-size: 100%;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.845);
+    width: 90%;
+    opacity: 0%;
+  }
+  
+  .column:hover p{
+    opacity: 100%;
+    transition: 1s;
+  }
+
+
+
+  .Panel{
+    height: 100%;
+    width: 0%;
+    position: fixed;
+    z-index: -1;
+    top: 0;
+    background-color:rgba(0, 0, 0); /* Black*/
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-bottom: 0px;
+    transition: .5s;
+    margin-top: 80px; 
+    padding-top: 20px;
+ 
+  
+  }
+
+  
+.Panel p{
+    color: white;
+}
+
+.anchors > div{
+    margin-bottom: 500px;
+    color: white;
+}

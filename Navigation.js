@@ -14,6 +14,8 @@ function openNav() {
     document.getElementById("header").style.marginTop = "0%";
   
   } 
+
+  /*
   
   function openLeftNav() {
     document.getElementById("myLeftSidenav").style.width = "25%";
@@ -21,12 +23,14 @@ function openNav() {
     document.getElementById("leftHeader").style.marginLeft = "25%";
   }
   
-  /* Set the width of the side navigation to 0 and the left margin of the page content to 0 */
+  /* Set the width of the side navigation to 0 and the left margin of the page content to 0 
   function closeLeftNav() {
     document.getElementById("myLeftSidenav").style.width = "0%";
     document.getElementById("main").style.marginLeft = "0%";
     document.getElementById("leftHeader").style.marginLeft = "0%";
   }
+
+
   
   /* When the user scrolls down, hide the navbar. When the user scrolls up, show the navbar */
   var prevScrollpos = window.pageYOffset;
@@ -68,3 +72,101 @@ function openNav() {
       }
     }
   };
+
+
+      function closeAllPanels() {
+      document.getElementById("Panel1").style.width = "0%";
+      document.getElementById("Panel2").style.width = "0%";
+      document.getElementById("Panel3").style.width = "0%";
+      document.getElementById("Panel4").style.width = "0%";
+      document.getElementById("Panel5").style.width = "0%";
+      document.getElementById("module").style.marginLeft = "0%";
+      
+    }
+
+
+
+
+  /* Set the width of the side navigation to 250px and the left margin of the page content to 250px */
+
+ 
+  function openPanel1() {
+    setTimeout(function(){
+        document.getElementById("Panel1").style.width = "50%";
+        document.getElementById("module").style.marginLeft = "50%";
+    }, 500);
+}
+  
+  /* Set the width of the side navigation to 0 and the left margin of the page content to 0 */
+  function closePanel1() {
+    document.getElementById("Panel1").style.width = "0%";
+    document.getElementById("module").style.marginLeft = "0%";
+  } 
+
+
+    /* Set the width of the side navigation to 250px and the left margin of the page content to 250px */
+    function openPanel2() {
+      setTimeout(function(){
+        document.getElementById("Panel2").style.width = "50%";
+        document.getElementById("module").style.marginLeft = "50%";
+      }, 500);
+
+    }
+    
+    /* Set the width of the side navigation to 0 and the left margin of the page content to 0 */
+    function closePanel2() {
+
+      document.getElementById("Panel2").style.width = "0%";
+      document.getElementById("module").style.marginLeft = "0%";
+    } 
+
+
+    /* Set the width of the side navigation to 250px and the left margin of the page content to 250px */
+    function openPanel3() {
+      setTimeout(function(){
+
+      document.getElementById("Panel3").style.width = "50%";
+      document.getElementById("module").style.marginLeft = "50%";
+    }, 500);
+    }
+    
+    /* Set the width of the side navigation to 0 and the left margin of the page content to 0 */
+    function closePanel3() {
+      document.getElementById("Panel3").style.width = "0%";
+      document.getElementById("module").style.marginLeft = "0%";
+  
+    } 
+  
+
+    /* Set the width of the side navigation to 250px and the left margin of the page content to 250px */
+    function openPanel4() {
+      setTimeout(function(){
+
+      document.getElementById("Panel4").style.width = "50%";
+      document.getElementById("module").style.marginLeft = "50%";
+    }, 500);
+    }
+    
+    /* Set the width of the side navigation to 0 and the left margin of the page content to 0 */
+    function closePanel4() {
+      document.getElementById("Panel4").style.width = "0%";
+      document.getElementById("module").style.marginLeft = "0%";
+    } 
+  
+  
+  
+    /* Set the width of the side navigation to 250px and the left margin of the page content to 250px */
+    function openPanel5() {
+
+      setTimeout(function(){
+
+      document.getElementById("Panel5").style.width = "50%";
+      document.getElementById("module").style.marginLeft = "50%";
+    }, 500);
+    }
+    
+    /* Set the width of the side navigation to 0 and the left margin of the page content to 0 */
+    function closePanel5() {
+      document.getElementById("Panel5").style.width = "0%";
+      document.getElementById("module").style.marginLeft = "0%";
+    } 
