@@ -394,6 +394,7 @@ nav ul li a {
 #portfolio {
   position: relative;
   padding-bottom: 50px;
+  background-color: #efefef;
 }
 
 #portfolio .portfolio-list {
@@ -455,7 +456,7 @@ nav ul li a {
 #journal,  #journal-blog {
   height: auto;
   width: 100%;
-  background: #f7f7f7;
+  background: #ffffff;
   padding-bottom: 60px;
   position: relative;
 }
