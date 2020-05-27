@@ -96,12 +96,12 @@ $(document).ready(function() {
   // ========================================================================= //
 
   $('.services-carousel').owlCarousel({
-    autoplay: true,
-    loop: true,
+    autoplay: false,
+    loop: false,
     margin: 20,
-    dots: true,
+    dots: false,
     nav: false,
-    responsiveClass: true,
+    responsiveClass: false,
     responsive: {
       0: {
         items: 1

@@ -363,7 +363,7 @@ nav ul li a {
 }
 
 .services-carousel .owl-dot.active {
-  background-color: #bdbbb8;
+  background-color: #ffffff;
 }
 
 .owl-nav {
@@ -468,11 +468,6 @@ nav ul li a {
   transition: all 0.5s ease-in-out 0s;
 }
 
-.journal-block .journal-info .journal-txt h4 a:hover {
-  color: #1d1d1e;
-  transform: scale(1.1);
-  transition: all 0.5s ease-in-out 0s;
-}
 
 .journal-block .journal-info .journal-txt p {
   margin: 0;
