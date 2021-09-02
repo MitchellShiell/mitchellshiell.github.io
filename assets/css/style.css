@@ -308,6 +308,45 @@ nav ul li a {
   margin-right: 20px;
 }
 
+#hero-chemistry {
+  background: url("../img/fuego2.jpg") repeat scroll center center/cover;
+  height: 25vh;
+  width: 100vw;
+
+}
+
+#hero-chemistry .hero-content {
+  height: 30vh;
+  text-align: left;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+#hero-chemistry .hero-content h1 {
+  font-size: 25px;
+  font-weight: 700;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+#hero-chemistry .hero-content p {
+  font-size: 13px;
+  letter-spacing: 3px;
+  margin-top: 0;
+  margin-bottom: 30px;
+  text-transform: capitalize;
+  color: #fff;
+  font-weight: 500;
+}
+
+#hero-chemistry .hero-content .list-social li {
+  float: left;
+  margin-right: 20px;
+}
+
 .hero-content .list-social li i {
   color: #fff;
   font-size: 15px;
