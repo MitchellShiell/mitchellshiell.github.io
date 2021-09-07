@@ -34,9 +34,22 @@ h2 {
 }
 
 h4 {
+  padding: 0px 2px 10px 10px;
+  position: relative;
+  display: block;
+  letter-spacing: 0.1em;
   color: #242424;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 30px;
+  transition: all 0.5s ease-in-out 0s;
+
+}
+
+h5 {
+  color: #424242;
   font-size: 14px;
-  font-weight: 600;
+  font-weight: 700;
 }
 
 a {
@@ -160,6 +173,14 @@ p {
 .mb-30 li{
   list-style-type: none;
   font-size: smaller;
+}
+
+.imgcover{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  border-left: 5px solid #0d0d0d;
 }
 
 /*--------------------------------------------------------------
@@ -308,10 +329,8 @@ nav ul li a {
   margin-right: 20px;
 }
 
-
-
 #hero-chemistry {
-  background: url("../img/fuego2-min.jpg") repeat scroll center center/cover;
+  background: url("../img/fuego2-min.jpg") repeat center/cover;
   height: 25vh;
   width: 100vw;
 
