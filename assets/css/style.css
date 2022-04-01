@@ -875,8 +875,22 @@ blockquote {
   border-left: 4px solid #1d1d1e;
 }
 
+#answer {
+  background-color: #e1f7dd;
+  border-left: 4px solid #1d1d1e;
+}
+
 .frontpage {
   width: 100% 
+}
+
+.intext {
+  width: 85%;
+  padding-left: 10%;
+}
+
+.video {
+  padding-left: 10%;
 }
 
 /*--------------------------------------------------------------
