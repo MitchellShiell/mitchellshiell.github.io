@@ -380,7 +380,11 @@ nav ul li a {
   width: 100%;
   height: auto;
   background: #ffffff;
-  padding-top: 190px;
+  padding-top: 90px;
+  -webkit-user-select: none; /* Safari */        
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* IE10+/Edge */
+  user-select: none; /* Standard */
 }
 
 #about .div-img-bg {
@@ -410,7 +414,7 @@ nav ul li a {
   text-align: left;
 }
 
-#about a:hover{
+.separator:hover{
   color: #006494;
   transition: all 0.1s ease-in-out 0s;
 }
