@@ -119,13 +119,12 @@ p {
 }
 
 .section-title {
-  margin-bottom: 70px;
+  margin-bottom: 50px;
 }
 
 .section-title h2 {
-  font-size: 25px;
+  font-size: 30px;
   letter-spacing: 2px;
-  text-transform: uppercase;
 }
 
 .form-control {
@@ -428,6 +427,13 @@ nav ul li a {
   padding-bottom: 80px;
 }
 
+#services2 {
+  background: #efefee;
+  position: relative;
+  padding-bottom: 80px;
+}
+
+
 .owl-item {
   float: left;
 }
@@ -555,7 +561,7 @@ nav ul li a {
 
 #journal-blog1 {
   background: #efefef;
-  padding-bottom: 30px;
+  padding-bottom: 0px;
 }
 
 #journal .journal-block {
@@ -607,7 +613,7 @@ nav ul li a {
   height: auto;
   width: 100%;
   background: #efefef;
-  padding-bottom: 60px;
+  padding-bottom: 10px;
   position: relative;
 }
 
@@ -749,6 +755,11 @@ nav ul li a {
   }
 }
 
+#ql{
+  padding-bottom: 50px;
+  padding-top: 10px;
+}
+
 /*--------------------------------------------------------------
 # Blog
 --------------------------------------------------------------*/
@@ -781,6 +792,7 @@ nav ul li a {
   display: inline-block;
   width: 100%;
 }
+
 
 .journal-txt h4 a {
   display: block;
@@ -985,6 +997,7 @@ blockquote {
     padding-top: 15px;
     display: block;
   }
+
   /* About */
   .head-info .header-content .cmaster h1 {
     font-size: 32px;
