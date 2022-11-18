@@ -2,23 +2,15 @@
 
 ### **We are a team of software engineers, infrastructure specialists, and bioinformaticians creating big-data tools to better treat cancer, one genome at a time.**
 
-<br />
-
 # Table of Contents
 
 ### [:computer: Running a Local Instance](#computer-running-a-local-instance)
-
 ### [:ballot_box: Submitting a Blog Post](#ballot_box-submitting-a-blog-post)
-
 ### [:arrow_up: Updating Blog Content (non-posts)](#arrow_up-updating-blog-content-non-posts)
-
 ### [:memo: Writing Guide](writing_guide.md)
 - Non-prescriptive guide covering best practices with structured templates included
-
 ### [:bank: Topic Bank](https://docs.google.com/spreadsheets/d/1DpQTHxzmoiRsZAbVWEqD_FN9pUhOC_0cVLudeGFhjbk/edit?usp=sharing)
 - A place to store and pull ideas for topics
-
-<br />
 
 # :computer: Running a Local Instance
 
@@ -37,7 +29,6 @@ For livereload, in a separate terminal, run:
 ```
 bundle exec guard
 ```
-<br />
 
 # :ballot_box: Submitting a Blog Post
 
@@ -64,7 +55,6 @@ git pull
 git checkout -b <branch>
 git push -u origin <branch>
 ```
-
 
 **3. Start adding content into your user directory inside `/_posts/`, user directories are in the form `firstname_lastname`, if you are unsure about your username, please refer to `/_data/authors.yml`.**
 
@@ -118,5 +108,3 @@ https://help.github.com/articles/creating-a-pull-request/
 # :arrow_up: Updating blog content (non-posts)
 
 - Blog data (projects, team members, positions, ...) are located in `/_data/`, please edit those files in your own branch and submit pull requests towards gh-pages.
-
-<br />
