@@ -1,7 +1,7 @@
 
 # :newspaper: OICR Engineering Blog
 
-<a href="https://softeng.oicr.on.ca/"><img src="images/OICRHero.jpg"></a>
+<a href="https://softeng.oicr.on.ca/"><img src="OICRHero.jpg"></a>
 
 <br />
 
