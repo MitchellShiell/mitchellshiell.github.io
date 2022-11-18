@@ -1,6 +1,6 @@
 # :newspaper: OICR Engineering Blog
 
-<a href="https://softeng.oicr.on.ca/"><img src="images/OICRHero.jpg"></a>
+<a href="https://softeng.oicr.on.ca/"><img src="OICRHero.jpg"></a>
 
 We are a team of software engineers, infrastructure specialists, and bioinformaticians creating big-data tools to better treat cancer, one genome at a time.
 
