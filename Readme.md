@@ -32,7 +32,7 @@ bundle exec guard
 
 # :ballot_box: Submitting a Blog Post
 
-**1. Setup a local up-to-date copy of the repository:**
+### **1. Setup a local up-to-date copy of the repository:**
 ```
 git clone https://github.com/OICR/softeng-blog.git
 cd softeng-blog
@@ -45,7 +45,7 @@ git checkout gh-pages
 git pull
 ```
 
-**2. Branch from gh-pages and push your branch to github.**
+### **2. Branch from gh-pages and push your branch to github.**
 
 - Branch name can be your firstname_topic (for example: alexis_argo). 
 - Branches can be deleted after merge.
@@ -56,7 +56,7 @@ git checkout -b <branch>
 git push -u origin <branch>
 ```
 
-**3. Start adding content into your user directory inside `/_posts/`, user directories are in the form `firstname_lastname`, if you are unsure about your username, please refer to `/_data/authors.yml`.**
+### **3. Start adding content into your user directory inside `/_posts/`, user directories are in the form `firstname_lastname`, if you are unsure about your username, please refer to `/_data/authors.yml`.**
 
 - To be properly indexed, markdown files must contain the specific header, and the file name should start with its date (e.g. `_posts/sam_lee/2021-06-06-starting-up-from-scratch.md`)
 - For multiple authors simply list authors separated by ", "
@@ -90,7 +90,7 @@ header:
 - We are using `kramdown` markdown converter. You can find out more about it here [kramdown](http://kramdown.gettalong.org). We highly recommend going through its syntax documentation
 to get yourself more familiar with the coding style.
 
-**4. Sync your new branch with Github**
+### **4. Sync your new branch with Github**
 
 - At regular interval, push your content to Github.
 
@@ -99,7 +99,7 @@ git commit -a -m "Describe your changes"
 git push
 ```
 
-**5. Create a Pull Request**
+### **5. Create a Pull Request**
 
 Once your content is ready for review, create a pull request from your new branch towards gh-pages.
 
