@@ -12,6 +12,8 @@
 ### [:bank: Topic Bank](https://docs.google.com/spreadsheets/d/1DpQTHxzmoiRsZAbVWEqD_FN9pUhOC_0cVLudeGFhjbk/edit?usp=sharing)
 - A place to store and pull ideas for topics
 
+<br />
+
 # :computer: Running a Local Instance
 
 ### **1. Clone this repo**
