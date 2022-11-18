@@ -1,6 +1,6 @@
-# :newspaper: OICR Software Engineering Blog
+# :newspaper: OICR Engineering Blog
 
-### **We are a team of software engineers, infrastructure specialists, and bioinformaticians creating big-data tools to better treat cancer, one genome at a time.**
+###  **We are a team of software engineers, infrastructure specialists, and bioinformaticians creating big-data tools to better treat cancer, one genome at a time.**
 
 # Table of Contents
 
@@ -14,9 +14,9 @@
 
 # :computer: Running a Local Instance
 
-**1. Clone this repo**
+### **1. Clone this repo**
 
-**2. cd into the repo and run:**
+### **2. cd into the repo and run:**
 
 ```bash
 gem install jekyll bundler
@@ -47,9 +47,8 @@ git pull
 
 ### **2. Branch from gh-pages and push your branch to github.**
 
-- Branch name can be your firstname_topic (for example: alexis_argo). 
-- Branches can be deleted after merge.
-- This will create a new branch for your blog post and sync it with github.
+- This will create a new branch for your blog post and sync it with github
+- Branch name can be your firstname_topic (for example: alexis_argo), branches can be deleted after merge
 
 ```
 git checkout -b <branch>
@@ -60,8 +59,6 @@ git push -u origin <branch>
 
 - To be properly indexed, markdown files must contain the specific header, and the file name should start with its date (e.g. `_posts/sam_lee/2021-06-06-starting-up-from-scratch.md`)
 - For multiple authors simply list authors separated by ", "
-- Images can be added as an absolute or a relative link. You can look at kramdown syntax documentation to find out about adding absolute links. For a relative link images you can upload them into your folder inside images directory `/images/firstname_lastname/image.png`
-    -  To refer them inside your blog post, use the image url from the site config as `{{ site.urlimg }}` and append relative link of your image. `{{ site.urlimg }}/firstname_lastname/image.png`
 
 ```yml
 ---
@@ -89,6 +86,8 @@ header:
 
 - We are using `kramdown` markdown converter. You can find out more about it here [kramdown](http://kramdown.gettalong.org). We highly recommend going through its syntax documentation
 to get yourself more familiar with the coding style.
+- Images can be added as an absolute or a relative link. You can look at kramdown syntax documentation to find out about adding absolute links. For a relative link images you can upload them into your folder inside images directory `/images/firstname_lastname/image.png`
+    -  To refer them inside your blog post, use the image url from the site config as `{{ site.urlimg }}` and append relative link of your image. `{{ site.urlimg }}/firstname_lastname/image.png`
 
 ### **4. Sync your new branch with Github**
 
