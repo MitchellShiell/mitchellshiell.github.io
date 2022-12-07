@@ -1,111 +1,48 @@
-# :newspaper: OICR Engineering Blog
+<!--D2-->
 
-###  **We are a team of software engineers, infrastructure specialists, and bioinformaticians creating big-data tools to better treat cancer, one genome at a time.**
+<!--Ego ReadMe-->
 
-# Table of Contents
+<!--less OICR move marketing towards the bottom, what it does how to set it up towards the top. Ego UI ref-->
 
-### [:computer: Running a Local Instance](#computer-running-a-local-instance)
-### [:ballot_box: Submitting a Blog Post](#ballot_box-submitting-a-blog-post)
-### [:arrow_up: Updating Blog Content (non-posts)](#arrow_up-updating-blog-content-non-posts)
-### [:memo: Writing Guide](writing_guide.md)
-- Non-prescriptive guide covering best practices with structured templates included
-### [:bank: Topic Bank](https://docs.google.com/spreadsheets/d/1DpQTHxzmoiRsZAbVWEqD_FN9pUhOC_0cVLudeGFhjbk/edit?usp=sharing)
-- A place to store and pull ideas for topics
 
-<br />
 
-# :computer: Running a Local Instance
 
-### **1. Clone this repo**
 
-### **2. cd into the repo and run:**
+<div>
+<img align="left" width="5%" vspace="20" src="icon-ego.png" alt="ego-logo" hspace="30"/>
+</div>
 
-```bash
-gem install jekyll bundler
-bundle install
-sh serve.sh
-```
+# Ego 
 
-For livereload, in a separate terminal, run:
 
-```
-bundle exec guard
-```
+[<img src="https://img.shields.io/badge/chat-on--slack-blue">](http://slack.overture.bio)
+[<img src="https://img.shields.io/badge/License-gpl--v3.0-blue">](https://github.com/overture-stack/ego/blob/develop/LICENSE)
 
-# :ballot_box: Submitting a Blog Post
 
-### **1. Setup a local up-to-date copy of the repository:**
-```
-git clone https://github.com/OICR/softeng-blog.git
-cd softeng-blog
-```
+<!-- Replace slack with discourse once setup -->
 
-**(or) Pull recent changes:**
-```
-cd softeng-blog
-git checkout gh-pages
-git pull
-```
 
-### **2. Branch from gh-pages and push your branch to github.**
 
-- This will create a new branch for your blog post and sync it with github
-- Branch name can be your firstname_topic (for example: alexis_argo), branches can be deleted after merge
 
-```
-git checkout -b <branch>
-git push -u origin <branch>
-```
 
-### **3. Start adding content into your user directory inside `/_posts/`, user directories are in the form `firstname_lastname`, if you are unsure about your username, please refer to `/_data/authors.yml`.**
+Access to sensitive and valuable information necessitates complex and secure methods to verify users and authorize what data and applications they are allowed to access. [Ego](https://www.overture.bio/products/ego/)  simplifies user management by providing a secure system to authenticate and authorize users of your application. [Ego](https://www.overture.bio/products/ego/) uses well-known single-sign-on identity providers like Google, GitHub, LinkedIn and ORCiD in place of managing usernames and passwords. 
 
-- To be properly indexed, markdown files must contain the specific header, and the file name should start with its date (e.g. `_posts/sam_lee/2021-06-06-starting-up-from-scratch.md`)
-- For multiple authors simply list authors separated by ", "
+Ego is [OAuth 2.0](https://oauth.net/2/) and [OpenID Connect](https://auth0.com/docs/authenticate/protocols/openid-connect-protocol) compliant. It is written in JAVA and uses [Sprint Boot](https://spring.io/projects/spring-boot) and [Spring Security Frameworks](https://spring.io/projects/spring-security). Because it uses [JSON Web Tokens (JWT)](https://jwt.io/) for stateless authorization, it can scale to accommodate many users. See our thorough [documentation](https://www.overture.bio/documentation/ego/) for further details. 
 
-```yml
----
-layout: post
-title:  "YOUR BLOG TITLE"
-breadcrumb: true
-author: firstname_lastname
-date: 2023-03-15
-categories: firstname_lastname
-tags:
-    - Software Engineering
-    - Python
-    - React
-teaser:
-    info: A talk given for the Ontario Institute for Cancer Research’s software engineering club on PGMLab (Probabilistic Graphical Model Lab) and developing web applications for Celery. Javascript web technologies such as React, Redux, Immutable.js, ECMAScript 6 (ES6) are discussed...
-    image: post.png # optional
-    youtube: youtubevideokey # optional\
-header:
-    version: small
-    title: Software Engineering Blog
-    image: header-logo-crop.png
-    icon: icon-blog
----
-```
 
-- We are using `kramdown` markdown converter. You can find out more about it here [kramdown](http://kramdown.gettalong.org). We highly recommend going through its syntax documentation
-to get yourself more familiar with the coding style.
-- Images can be added as an absolute or a relative link. You can look at kramdown syntax documentation to find out about adding absolute links. For a relative link images you can upload them into your folder inside images directory `/images/firstname_lastname/image.png`
-    -  To refer them inside your blog post, use the image url from the site config as `{{ site.urlimg }}` and append relative link of your image. `{{ site.urlimg }}/firstname_lastname/image.png`
 
-### **4. Sync your new branch with Github**
 
-- At regular interval, push your content to Github.
 
-```
-git commit -a -m "Describe your changes"
-git push
-```
 
-### **5. Create a Pull Request**
+><div>
+> 
+> <img align="left" src="ov-logo.png" height="100" vspace="20" hspace="30"/>
+> </div>
 
-Once your content is ready for review, create a pull request from your new branch towards gh-pages.
+><br/>
 
-https://help.github.com/articles/creating-a-pull-request/
+>Ego is a core component of [Overture](https://www.overture.bio/). Overture is an ensemble of modular solutions for big-data genomic science. Our core products work in concert to manage, explore and visualize molecular and clinical data. Visit our [website](https://www.overture.bio/) for more information on what Overture offers, and check out our other projects on [GitHub](https://github.com/overture-stack/).
+>
+> <br/>
 
-# :arrow_up: Updating blog content (non-posts)
 
-- Blog data (projects, team members, positions, ...) are located in `/_data/`, please edit those files in your own branch and submit pull requests towards gh-pages.
