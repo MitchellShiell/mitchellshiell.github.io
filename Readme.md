@@ -8,7 +8,7 @@
   <img align="right" alt="Overture overview" src="https://www.overture.bio/static/124ca0fede460933c64fe4e50465b235/a6d66/system-diagram.png" width="45%" hspace="5">
 </div>
 
-The Overture Data Management System (DMS) is a collection of microservices designed to support the entire lifecycle of genomics data. This package of microservices is fully functional and can be customized to suit your specific needs. The DMS provides a comprehensive data portal allowing users to query data, build cohorts and export queried data for further analyze and interpretation.
+The Overture Data Management System (DMS) is a collection of microservices designed to support the entire lifecycle of genomics data. The DMS provides a comprehensive data portal allowing users to query data, build cohorts and export queried data for further analyze and interpretation.
 
 </br>
 
