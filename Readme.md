@@ -45,4 +45,4 @@ The DMS is packaged with the following components:
 
 ## Acknowledgements
 
-*DMS development supported by [Canarie](https://canarie.ca)*
+*DMS development was supported by [Canarie](https://canarie.ca)*
