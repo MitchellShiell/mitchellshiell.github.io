@@ -10,6 +10,14 @@
 
 The Overture Data Management System (DMS) is a collection of microservices designed to support the entire lifecycle of genomics data. This package of microservices is fully functional and can be customized to suit your specific needs. The DMS provides a comprehensive data portal allowing users to query data, build cohorts and export queried data for further analyze and interpretation.
 
+</br>
+
+<div>
+<img align="left" src="ov-logo.png" height="60" hspace="0"/>
+</div>
+
+[Overture](https://www.overture.bio/) is an ecosystem of research software tools, each with narrow responsibilities, designed to address the changing needs of genome informatics.</br></br>
+
 The DMS is packaged with the following components:
 
 - [Ego](https://www.overture.bio/products/ego/) and [Ego UI](https://www.overture.bio/products/ego-ui/) for application and user management
@@ -21,21 +29,6 @@ The DMS is packaged with the following components:
 - [Maestro](https://www.overture.bio/products/maestro/) to organize distributed song metadata into a single centralized Elasticsearch index
 
 - [Arranger](https://www.overture.bio/products/arranger/), which is the search API that interfaces between the Elasticsearch index and built-in UI components.
-
-<!--Blockqoute-->
-
-</br>
-
-> 
-> <div>
-> <img align="left" src="ov-logo.png" height="90" hspace="0"/>
-> </div>
-> 
-> *[Overture](https://www.overture.bio/) is an ecosystem of research software tools, each with narrow responsibilities, designed to address the changing needs of genome informatics.*
-> 
-> 
-
-<!--Blockqoute-->
 
 ## Documentation
 
@@ -50,9 +43,8 @@ The DMS is packaged with the following components:
 - Connect with us on [Slack](http://slack.overture.bio)
 - Add or Upvote a [feature request](https://github.com/overture-stack/ego/issues?q=is%3Aopen+is%3Aissue+label%3Anew-feature+sort%3Areactions-%2B1-desc)
 
-
 ## Acknowledgements
 
-DMS development supported by:
+*DMS development supported by:*
 
 [![Canarie logo](canarie-logo.png)](https://canarie.ca)
