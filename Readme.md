@@ -13,7 +13,7 @@ The Overture Data Management System (DMS) is a collection of microservices desig
 </br>
 
 <div>
-<img align="left" src="ov-logo.png" height="60" hspace="0"/>
+<img align="left" src="ov-logo.png" height="80" hspace="0"/>
 </div>
 
 [Overture](https://www.overture.bio/) is an ecosystem of research software tools, each with narrow responsibilities, designed to address the changing needs of genome informatics.</br></br>
